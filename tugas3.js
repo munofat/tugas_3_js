@@ -1,7 +1,10 @@
-function func(v){
-  console.log(v);
+function func(x){
+
+  console.log(x);
   var yaya = "makan bang";
   return yaya;
+
 }
-  func("kamu");
-  console.log(func());
+
+  console.log(func("look"));
+  func("look");
